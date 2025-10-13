@@ -7,7 +7,7 @@ import Foundation
 
 @objcMembers public class NCBaseSessionManager: AFHTTPSessionManager {
 
-    public static var baseUserAgent = "Mozilla/5.0 (iOS) Nextcloud-Talk v\(Bundle.main.infoDictionary?["CFBundleShortVersionString"] ?? "Unknown")"
+    public static var baseUserAgent = "Mozilla/5.0 (iOS) Seventh-Star-Talk v\(Bundle.main.infoDictionary?["CFBundleShortVersionString"] ?? "Unknown")"
     public var userAgent: String = baseUserAgent
 
     init(configuration: URLSessionConfiguration, responseSerializer: AFHTTPResponseSerializer, requestSerializer: AFHTTPRequestSerializer) {

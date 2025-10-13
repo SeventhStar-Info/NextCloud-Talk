@@ -123,7 +123,7 @@ NSInteger const kReceivedChatMessagesLimit = 100;
 {
     ServerCapabilities *serverCapabilities = [[NCDatabaseManager sharedInstance] serverCapabilitiesForAccountId:account.accountId];
     NSString *userToken = [[NCKeyChainController sharedInstance] tokenForAccountId:account.accountId];
-    NSString *userAgent = [NSString stringWithFormat:@"Mozilla/5.0 (iOS) Nextcloud-Talk v%@", [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]];
+    NSString *userAgent = [NSString stringWithFormat:@"Mozilla/5.0 (iOS) Seventh-Star-Talk v%@", [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]];
     [[NextcloudKit shared] setupWithAccount:account.accountId user:account.user userId:account.userId password:userToken urlBase:account.server userAgent:userAgent nextcloudVersion:serverCapabilities.versionMajor delegate:self];
 }
 
@@ -155,7 +155,7 @@ NSInteger const kReceivedChatMessagesLimit = 100;
     [SDImageCache sharedImageCache].config.shouldRemoveExpiredDataWhenTerminate = NO;
     [SDImageCache sharedImageCache].config.shouldRemoveExpiredDataWhenEnterBackground = NO;
 
-    NSString *userAgent = [NSString stringWithFormat:@"Mozilla/5.0 (iOS) Nextcloud-Talk v%@",
+    NSString *userAgent = [NSString stringWithFormat:@"Mozilla/5.0 (iOS) Seventh-Star-Talk v%@",
                   [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]];
     [[SDWebImageDownloader sharedDownloader] setValue:userAgent forHTTPHeaderField:@"User-Agent"];
 }

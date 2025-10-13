@@ -200,7 +200,7 @@ typedef void (^CreateConversationNotificationCompletionBlock)(void);
 
                                     NSURL *url = [NSURL URLWithString:urlString];
 
-                                    NSString *userAgent = [NSString stringWithFormat:@"Mozilla/5.0 (iOS) Nextcloud-Talk v%@",
+                                    NSString *userAgent = [NSString stringWithFormat:@"Mozilla/5.0 (iOS) Seventh-Star-Talk v%@",
                                                            [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]];
 
                                     [[SDWebImageDownloader sharedDownloader] setValue:userAgent forHTTPHeaderField:@"User-Agent"];

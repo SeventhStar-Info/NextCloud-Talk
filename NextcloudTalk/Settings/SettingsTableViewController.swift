@@ -778,7 +778,7 @@ class SettingsTableViewController: UITableViewController, UITextFieldDelegate, U
                 self.present(safariVC, animated: true, completion: nil)
             }
         case AboutSection.kAboutSectionSourceCode.rawValue:
-            let safariVC = SFSafariViewController(url: URL(string: "https://github.com/nextcloud/talk-ios")!)
+            let safariVC = SFSafariViewController(url: URL(string: sourceCodeURL)!)
             self.present(safariVC, animated: true, completion: nil)
         default:
             break

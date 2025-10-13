@@ -18,15 +18,16 @@ typedef enum NCTextColorStyle {
 
 #pragma mark - App configuration
 
-NSString * const talkAppName = @"Nextcloud Talk";
-NSString * const filesAppName = @"Nextcloud";
-NSString * const copyright = @"© 2025 Nextcloud GmbH";
-NSString * const bundleIdentifier = @"com.nextcloud.Talk";
-NSString * const groupIdentifier = @"group.com.nextcloud.Talk";
-NSString * const appsGroupIdentifier = @"group.com.nextcloud.apps";
+NSString * const talkAppName = @"Seventh Star Talk";
+NSString * const filesAppName = @"Seventh Star";
+NSString * const copyright = @"© 2025 Seventh Star (Pty) Ltd";
+NSString * const bundleIdentifier = @"za.co.seventhstar.talk";
+NSString * const groupIdentifier = @"group.za.co.seventhstar";
+NSString * const appsGroupIdentifier = @"group.za.co.seventhstar.apps";
 NSString * const pushNotificationServer = @"https://push-notifications.nextcloud.com";
-NSString * const privacyURL = @"https://nextcloud.com/privacy";
-BOOL const isBrandedApp = NO;
+NSString * const privacyURL = @"https://seventhstar.co.za/privacy";
+NSString * const sourceCodeURL = @"https://github.com/SeventhStar-Info/Next-Cloud-Instance";
+BOOL const isBrandedApp = YES;
 BOOL const multiAccountEnabled = YES;
 BOOL const useAppsGroup = YES;
 BOOL const forceDomain = NO;
@@ -45,7 +46,7 @@ NSString * const appAlternateVersion = @"";
 
 #pragma mark - Theming
 
-NSString * const brandColorHex = @"#0082C9";
+NSString * const brandColorHex = @"#C62828";
 NSString * const brandTextColorHex = @"#FFFFFF";
 BOOL const customNavigationLogo = NO;
 BOOL const useServerThemimg = YES;

@@ -128,7 +128,7 @@ NSString * const NCExternalSignalingControllerDidReceiveStoppedTypingNotificatio
     [NCUtils log:[NSString stringWithFormat:@"Connecting to: %@", _serverUrl]];
     NSURL *url = [NSURL URLWithString:_serverUrl];
 
-    NSString *userAgent = [NSString stringWithFormat:@"Mozilla/5.0 (iOS) Nextcloud-Talk v%@",
+    NSString *userAgent = [NSString stringWithFormat:@"Mozilla/5.0 (iOS) Seventh-Star-Talk v%@",
                            [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]];
 
     NSURLSession *wsSession = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate:self delegateQueue:nil];

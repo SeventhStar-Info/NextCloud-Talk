@@ -10,7 +10,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Nextcloud Talk</string>
+	<string>Seventh Star Talk</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -29,10 +29,11 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.nextcloud.Talk</string>
+			<string>za.co.seventhstar.talk</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>nextcloudtalk</string>
+				<string>seventhstartalk</string>
 			</array>
 		</dict>
 	</array>
@@ -43,6 +44,7 @@
 		<string>nextcloud</string>
 		<string>nextcloudnotes</string>
 		<string>firefox</string>
+		<string>seventhstar</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>

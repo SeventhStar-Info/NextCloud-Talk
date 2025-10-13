@@ -1467,7 +1467,7 @@
 "Next week" = "Next week";
 
 /* No comment provided by engineer. */
-"Nextcloud server not found" = "Nextcloud server not found";
+"Server not found" = "Server not found";
 
 /* No comment provided by engineer. */
 "No" = "No";
@@ -1652,8 +1652,6 @@
 /* No comment provided by engineer. */
 "Please check that you entered a valid server address." = "Please check that you entered a valid server address.";
 
-/* No comment provided by engineer. */
-"Please check that you entered the correct Nextcloud server address." = "Please check that you entered the correct Nextcloud server address.";
 
 /* No comment provided by engineer. */
 "Please check that you entered the correct server address." = "Please check that you entered the correct server address.";
@@ -1929,7 +1927,7 @@
 "Share" = "Share";
 
 /* No comment provided by engineer. */
-"Share a file from your Nextcloud" = "Share a file from your Nextcloud";
+"Share a file" = "Share a file";
 
 /* No comment provided by engineer. */
 "Share current location" = "Share current location";

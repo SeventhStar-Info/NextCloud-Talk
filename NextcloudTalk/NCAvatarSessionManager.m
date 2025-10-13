@@ -36,7 +36,7 @@
 
     self = [super initWithSessionConfiguration:configuration];
     if (self) {
-        _userAgent = [NSString stringWithFormat:@"Mozilla/5.0 (iOS) Nextcloud-Talk v%@",
+        _userAgent = [NSString stringWithFormat:@"Mozilla/5.0 (iOS) Seventh-Star-Talk v%@",
                       [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]];
         
         self.responseSerializer = [[AFImageResponseSerializer alloc] init];
